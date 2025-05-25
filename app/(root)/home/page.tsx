@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 
 export default function Page(){
@@ -139,9 +140,104 @@ export default function Page(){
                    <div className="flex justify-center mt-5">
                     <h1 className="text-[40px] font-inter font-extrabold text-[#3A1700]">Our Recent Causes</h1>
                 </div>
- 
-                
-            {/* </div> */}
+
+
+              <div className="flex justify-center items-center mt-14 gap-5 flex-wrap ">
+
+             <div className="relative flex  flex-col w-[320px]  h-[500px]  bg-[#F3F2E7] rounded-[12px] ">
+                {/* <div className=""> */}
+                  
+                {/* </div> */}
+                <div className="bg-white">
+                      <h1 className="absolute py-1 px-4 top-4 ml-4 rounded-[18px]  bg-[#009EFF] text-white">water</h1>
+                    <Image src='/kidsTogether.png' className="w-auto h-auto" alt="kidsLove" width={500} height={200} />
+                </div>
+                <div className="p-6 flex flex-col gap-4">
+                <div >
+                    <h1 className="text-[24px] font-[Rowdies] font-bold text-base/8 ">Together people who care about a cause</h1>
+                </div>
+                <div>
+                    <p className="text-[20px] font-bold font-[Rowdies]">$ 2500</p>
+                </div>
+                 <div>
+                    <p className="text-[20px] font-bold font-[Rowdies]">$ 2500</p>
+                </div>
+                <div>
+                      <button className="text-[14px] font-[Rowdies] bg-[#7E8AB8] font-bold  py-2 px-4 text-center rounded-[24px] text-white mt-8">
+                           MAKE A DONATION
+                        </button>
+                </div>
+
+                </div>
+
+             </div>
+
+
+              <div className="relative flex  flex-col w-[320px]  h-[500px]  bg-[#F3F2E7] rounded-[12px] ">
+                {/* <div className=""> */}
+                  
+                {/* </div> */}
+                <div className="bg-white">
+                      <h1 className="absolute py-1 px-4 top-4 ml-4 rounded-[18px]  bg-[#009EFF] text-white">water</h1>
+                    <Image src='/kidsLove.png' className="w-auto h-auto" alt="kidsLove" width={500} height={200} />
+                </div>
+                <div className="p-6 flex flex-col gap-4">
+                <div >
+                    <h1 className="text-[24px] font-[Rowdies] font-bold text-base/8 ">Together people who care about a cause</h1>
+                </div>
+                <div>
+                    <p className="text-[20px] font-bold font-[Rowdies]">$ 2500</p>
+                </div>
+                 <div>
+                    <p className="text-[20px] font-bold font-[Rowdies]">$ 2500</p>
+                </div>
+                <div>
+                      <button className="text-[14px] font-[Rowdies] bg-[#7E8AB8] font-bold  py-2 px-4 text-center rounded-[24px] text-white mt-8">
+                           MAKE A DONATION
+                        </button>
+                </div>
+
+                </div>
+
+             </div>
+
+
+
+              <div className="relative flex  flex-col w-[320px]  h-[500px]  bg-[#F3F2E7] rounded-[12px] ">
+                {/* <div className=""> */}
+                  
+                {/* </div> */}
+                <div className="bg-white">
+                      <h1 className="absolute py-1 px-4 top-4 ml-4 rounded-[18px]  bg-[#009EFF] text-white">water</h1>
+                    <Image src='/kidsCauses.png' className="w-auto h-auto" alt="kidsLove" width={500} height={200} />
+                </div>
+                <div className="p-6 flex flex-col gap-4">
+                <div >
+                    <h1 className="text-[24px] font-[Rowdies] font-bold text-base/8 ">Together people who care about a cause</h1>
+                </div>
+                <div>
+                    <p className="text-[20px] font-bold font-[Rowdies]">$ 2500</p>
+                </div>
+                 <div>
+                    <p className="text-[20px] font-bold font-[Rowdies]">$ 2500</p>
+                </div>
+                <div>
+                      <button className="text-[14px] font-[Rowdies] bg-[#7E8AB8] font-bold  py-2 px-4 text-center rounded-[24px] text-white mt-8">
+                           MAKE A DONATION
+                        </button>
+                </div>
+
+                </div>
+
+             </div>
+
+             </div>
+
+             <div className="flex justify-center ">
+                <div className="py-2 px-6 border mt-8 rounded-[24px]  border-[#7E8AB8]">
+                    <Link className="text-[#7E8AB8] text-[14px] font-bold font-[Rowdies]" href='/' > EXPLORE ALL</Link>
+                </div>
+             </div>
         </section>
     )
 }
