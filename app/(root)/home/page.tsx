@@ -33,12 +33,12 @@ export default function Page(){
                 {/* </div>  */}
                 <div className="relative bg-white rounded-[100%] ">
                      <div className="absolute right-0 top-0">
-                        <Image src="/Path.svg" width={800} height={400} alt="child" priority className="w-auto max-sm:w-[60px] h-auto "/>      
+                        <Image src="/Path.svg" width={800} height={400} alt="path" priority className="w-auto max-sm:w-[60px] h-auto "/>      
                     </div>
                     <div className="absolute bottom-0 ">
-                        <Image src="/Shape.svg" width={800} height={400} alt="child" priority className="w-auto  max-sm:h-auto h-[300px] "/>      
+                        <Image src="/Shape.svg" width={800} height={400} alt="shape" priority className="w-auto  max-sm:h-auto h-[300px] "/>      
                     </div>
-                    <Image  src="/Image.png"  className="w-auto h-auto max-sm:w-[300px] relative"  width={400} height={300} alt="childofwar" priority/>
+                    <Image  src="/Image.png"  className="w-auto h-auto max-sm:w-[300px] relative"  width={400} height={300} alt="smiling child" priority/>
                 </div> 
 
                  <div className=" sm:hidden mt-30 p-6 ">
