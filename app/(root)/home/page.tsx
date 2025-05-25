@@ -148,9 +148,9 @@ export default function Page(){
                 {/* <div className=""> */}
                   
                 {/* </div> */}
-                <div className="bg-white">
+                <div className="bg-white ">
                       <h1 className="absolute py-1 px-4 top-4 ml-4 rounded-[18px]  bg-[#009EFF] text-white">water</h1>
-                    <Image src='/kidsTogether.png' className="w-auto h-auto" alt="kidsLove" width={500} height={200} />
+                    <Image src='/kidsTogether.png' className="w-[320px] h-auto" alt="kidsLove" width={500} height={200} />
                 </div>
                 <div className="p-6 flex flex-col gap-4">
                 <div >
