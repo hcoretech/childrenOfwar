@@ -157,10 +157,10 @@ export default function Page(){
                     <h1 className="text-[24px] font-[Rowdies] font-bold text-base/8 ">Together people who care about a cause</h1>
                 </div>
                 <div>
-                    <p className="text-[20px] font-bold font-[Rowdies]">$ 2500</p>
+                    <p className="text-[20px] font-bold font-[Rowdies]">N 2500</p>
                 </div>
                  <div>
-                    <p className="text-[20px] font-bold font-[Rowdies]">$ 2500</p>
+                    <p className="text-[20px] font-bold font-[Rowdies]">N 2500</p>
                 </div>
                 <div>
                       <button className="text-[14px] font-[Rowdies] bg-[#7E8AB8] font-bold  py-2 px-4 text-center rounded-[24px] text-white mt-8">
@@ -179,17 +179,17 @@ export default function Page(){
                 {/* </div> */}
                 <div className="bg-white">
                       <h1 className="absolute py-1 px-4 top-4 ml-4 rounded-[18px]  bg-[#009EFF] text-white">water</h1>
-                    <Image src='/kidsLove.png' className="w-auto h-auto" alt="kidsLove" width={500} height={200} />
+                    <Image src='/kidsLove.png' className="w-[320px] h-auto" alt="kidsLove" width={500} height={200} />
                 </div>
                 <div className="p-6 flex flex-col gap-4">
                 <div >
                     <h1 className="text-[24px] font-[Rowdies] font-bold text-base/8 ">Together people who care about a cause</h1>
                 </div>
                 <div>
-                    <p className="text-[20px] font-bold font-[Rowdies]">$ 2500</p>
+                    <p className="text-[20px] font-bold font-[Rowdies]">N 2500</p>
                 </div>
                  <div>
-                    <p className="text-[20px] font-bold font-[Rowdies]">$ 2500</p>
+                    <p className="text-[20px] font-bold font-[Rowdies]">N 2500</p>
                 </div>
                 <div>
                       <button className="text-[14px] font-[Rowdies] bg-[#7E8AB8] font-bold  py-2 px-4 text-center rounded-[24px] text-white mt-8">
@@ -209,17 +209,17 @@ export default function Page(){
                 {/* </div> */}
                 <div className="bg-white">
                       <h1 className="absolute py-1 px-4 top-4 ml-4 rounded-[18px]  bg-[#009EFF] text-white">water</h1>
-                    <Image src='/kidsCauses.png' className="w-auto h-auto" alt="kidsLove" width={500} height={200} />
+                    <Image src='/kidsCauses.png' className="w-[320px] h-auto" alt="kidsLove" width={500} height={200} />
                 </div>
                 <div className="p-6 flex flex-col gap-4">
                 <div >
                     <h1 className="text-[24px] font-[Rowdies] font-bold text-base/8 ">Together people who care about a cause</h1>
                 </div>
                 <div>
-                    <p className="text-[20px] font-bold font-[Rowdies]">$ 2500</p>
+                    <p className="text-[20px] font-bold font-[Rowdies]">N 2500</p>
                 </div>
                  <div>
-                    <p className="text-[20px] font-bold font-[Rowdies]">$ 2500</p>
+                    <p className="text-[20px] font-bold font-[Rowdies]">N 2500</p>
                 </div>
                 <div>
                       <button className="text-[14px] font-[Rowdies] bg-[#7E8AB8] font-bold  py-2 px-4 text-center rounded-[24px] text-white mt-8">
