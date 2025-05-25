@@ -86,7 +86,7 @@ export default function Page(){
     
 
             <div className=" text-center w-full flex flex-center  justify-center mt-8">
-                <h1 className="text-[40px] max-sm:text-[30px] w-[50%] max-sm:w-[70%] text-base/11 font-bold font-[Rowdies] tracking-wide leading-12   text-center">
+                <h1 className="text-[40px] max-sm:text-[30px] w-[50%] max-sm:w-full text-base/11 font-bold font-[Rowdies] tracking-wide leading-12   text-center">
                     You can make a difference by supporting 
                     a charity that you care about
                    Your donation can help to change lives.
