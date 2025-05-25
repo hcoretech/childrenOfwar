@@ -38,7 +38,7 @@ export default function Page(){
                     <div className="absolute bottom-0 ">
                         <Image src="/Shape.svg" width={800} height={200} alt="child" priority className="w-auto h-[300px] max-sm:h-auto "/>      
                     </div>
-                    <Image src="/image.png" width={400} height={300} alt="child" priority className="w-auto max-sm:w-[300px] h-auto relative"/>
+                    <Image src="/image.png" width={400} height={300} alt="childofwar" priority className="w-auto max-sm:w-[300px] h-auto "/>
                 </div> 
 
                  <div className=" sm:hidden mt-40 ">
