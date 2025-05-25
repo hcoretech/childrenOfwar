@@ -44,7 +44,7 @@ export default function Page(){
                  <div className=" sm:hidden mt-40 ">
                          {/* <Image src="/image.png" width={400} height={200} alt="child" className="w-auto h-auto float-right"/> */}
                          <div className=" relative ">
-                           <h1 className="text-[65px] font-[Rowdies] text-base/18   tracking-tight  font-light">Offering aids to the  less fortunate</h1>
+                           <h1 className="text-[65px] max-sm:text-[45px] font-[Rowdies] text-base/18   tracking-tight  font-light">Offering aids to the  less fortunate</h1>
                           <button className="text-[14px] font-[Rowdies] bg-[#7E8AB8] font-light  py-2 px-4 text-center rounded-[24px] text-white mt-8">
                            MAKE A DONATION
                           </button>
@@ -55,7 +55,7 @@ export default function Page(){
             </div> 
 
             {/* <div> */}
-                  <div className="flex  items-center justify-center relative mt-8 flex-wrap ">
+                  <div className="flex  items-stretch justify-center max-sm:gap-4 relative mt-8 flex-wrap ">
                     <div className="flex flex-col gap-3 text-center bg-white py-2 px-8 shadow-lg">
                         <h1 className=" font-[Rowdies] text-[40px] text-[#009EFF] font-light ">20M</h1>
                         <p className="border-2"> </p>
@@ -86,7 +86,7 @@ export default function Page(){
     
 
             <div className=" text-center w-full flex flex-center  justify-center mt-8">
-                <h1 className="text-[40px] w-[50%] text-base/11 font-light font-[Rowdies] tracking-wide leading-12   text-center">
+                <h1 className="text-[40px] max-sm:text-[30px] w-[50%] text-base/11 font-light font-[Rowdies] tracking-wide leading-12   text-center">
                     You can make a difference by supporting 
                     a charity that you care about
                    Your donation can help to change lives.
