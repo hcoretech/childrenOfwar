@@ -36,15 +36,15 @@ export default function Page(){
                         <Image src="/Path.svg" width={800} height={400} alt="child" priority className="w-auto max-sm:w-[60px] h-auto "/>      
                     </div>
                     <div className="absolute bottom-0 ">
-                        <Image src="/Shape.svg" width={800} height={200} alt="child" priority className="w-auto h-[300px] max-sm:h-auto "/>      
+                        <Image src="/Shape.svg" width={800} height={400} alt="child" priority className="w-auto  max-sm:h-auto h-[300px] "/>      
                     </div>
                     <Image  src="/Image.png"  className="w-auto h-auto max-sm:w-[300px] relative"  width={400} height={300} alt="childofwar" priority/>
                 </div> 
 
-                 <div className=" sm:hidden mt-40 ">
+                 <div className=" sm:hidden mt-30 p-6 ">
                          {/* <Image src="/image.png" width={400} height={200} alt="child" className="w-auto h-auto float-right"/> */}
                          <div className=" relative ">
-                           <h1 className="text-[65px] max-sm:text-[45px] font-[Rowdies] text-base/18   tracking-tight  font-light">Offering aids to the  less fortunate</h1>
+                           <h1 className="text-[65px] max-sm:text-[45px] font-mono text-base/18 max-sm:tracking-tight  max-sm:text-base/12  tracking-tight  font-bold">Offering aids to the  less fortunate</h1>
                           <button className="text-[14px] font-[Rowdies] bg-[#7E8AB8] font-light  py-2 px-4 text-center rounded-[24px] text-white mt-8">
                            MAKE A DONATION
                           </button>
@@ -55,7 +55,7 @@ export default function Page(){
             </div> 
 
             {/* <div> */}
-                  <div className="flex  items-stretch justify-center max-sm:gap-4 relative mt-8 flex-wrap ">
+                  <div className="flex  items-center max-sm:items-stretch max-sm:mt-2 justify-center max-sm:gap-4 relative mt-8  flex-wrap ">
                     <div className="flex flex-col gap-3 text-center bg-white py-2 px-8 shadow-lg">
                         <h1 className=" font-[Rowdies] text-[40px] text-[#009EFF] font-light ">20M</h1>
                         <p className="border-2"> </p>
@@ -86,7 +86,7 @@ export default function Page(){
     
 
             <div className=" text-center w-full flex flex-center  justify-center mt-8">
-                <h1 className="text-[40px] max-sm:text-[30px] w-[50%] text-base/11 font-light font-[Rowdies] tracking-wide leading-12   text-center">
+                <h1 className="text-[40px] max-sm:text-[30px] w-[50%] max-sm:w-[70%] text-base/11 font-bold font-[Rowdies] tracking-wide leading-12   text-center">
                     You can make a difference by supporting 
                     a charity that you care about
                    Your donation can help to change lives.
