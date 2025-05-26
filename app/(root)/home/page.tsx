@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Page(){
     return(
-        <section className="    ">
+        <section className=" w-screen ">
              
              <div className="relative overflow-hidden  w-screen  ">
 
@@ -86,8 +86,8 @@ export default function Page(){
             </div>
     
 
-            <div className=" text-center w-full flex flex-center  justify-center mt-8">
-                <h1 className="text-[40px] max-sm:text-[30px] w-[50%] max-sm:w-full text-base/11 font-bold font-[Rowdies] tracking-wide leading-12   text-center">
+            <div className=" text-center  flex flex-center  justify-center mt-8">
+                <h1 className="text-[40px] max-sm:text-[30px] w-[50%] max-sm:w-full text-base/11 font-bold font-[Rowdies] tracking-wide leading-12  text-center">
                     You can make a difference by supporting 
                     a charity that you care about
                    Your donation can help to change lives.
@@ -243,15 +243,13 @@ export default function Page(){
              <div className="flex justify-center  gap-6 items-center flex-wrap  relative p-10 mt-10">
                  <div className="relative">
                  
-                    <div className="absolute size-[240px] rounded-[100%] bottom-0 left-0 bg-[#009EFF] "> 
+                    <div className="absolute size-[200px] rounded-[100%] bottom-0 left-0 bg-[#009EFF] "> 
 
                    </div>
-                      <div className="absolute size-[240px] rounded-[24px] top-0 left-0 bg-[#009EFF]"> 
+                      <div className="absolute size-[200px] rounded-[24px] top-0 left-0 bg-[#009EFF]"> 
 
                    </div>
-                     <div className="absolute size-[240px] rounded-[24px] top-0 left-0 bg-[#009EFF]"> 
-                        
-                   </div>
+                   
                     <div className="absolute right-0 bottom-0">
                         <Image src="/Path.svg" width={800} height={400} alt="path" priority className="w-auto max-sm:w-[60px] h-auto  "/>      
                     </div>
@@ -339,11 +337,11 @@ export default function Page(){
                 </div>
                  <div className="relative">
                  
-                    <div className="absolute size-[240px] rounded-[100%] top-0 left-0 bg-[#009EFF] "> 
+                    <div className="absolute size-[200px] rounded-[100%] top-0 left-0 bg-[#009EFF] "> 
 
                    </div>
                      
-                     <div className="absolute size-[240px] rounded-[24px] bottom-0 right-0 bg-[#009EFF]"> 
+                     <div className="absolute size-[200px] rounded-[24px] bottom-0 right-0 bg-[#009EFF]"> 
                         
                    </div>
                     <div className="absolute right-0 top-0">
