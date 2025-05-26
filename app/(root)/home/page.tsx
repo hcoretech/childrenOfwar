@@ -57,23 +57,23 @@ export default function Page(){
 
             {/* <div> */}
                   <div className="flex  items-center max-sm:items-stretch max-sm:mt-2 justify-center max-sm:gap-4 relative mt-8  flex-wrap ">
-                    <div className="flex flex-col gap-3 text-center bg-white py-2 px-8 shadow-lg">
+                    <div className="flex flex-col gap-3  items-center text-center bg-white w-[300px] h-[150px]   shadow-lg">
                         <h1 className=" font-[Rowdies] text-[40px] text-[#009EFF] font-light ">20M</h1>
-                        <p className="border-2"> </p>
+                        <p className="border-2 w-[50px]"> </p>
                         <p className="font-[Rowdies] text-[16px] font-light">Number of Supporters</p>
                     </div>
-                      <div className="flex flex-col gap-3 text-center bg-white py-2 px-8 shadow-lg">
+                      <div className="flex flex-col gap-3 text-center items-center bg-white w-[300px] h-[150px] shadow-lg">
                         <h1 className=" font-[Rowdies] text-[40px] text-[#009EFF] font-light">15k</h1>
-                        <p className="border-2"> </p>
+                        <p className="border-2 w-[50px]"> </p>
                         <p className="font-[Rowdies] text-[16px] font-light">Volunteers WorldWide</p>
                     </div>
-                     <div className="flex flex-col gap-3 text-center bg-white py-2 px-8 shadow-lg">
+                     <div className="flex flex-col gap-3 text-center items-center bg-white w-[300px] h-[150px] shadow-lg">
                         <h1 className=" font-[Rowdies] text-[40px] text-[#009EFF] font-light">20M</h1>
-                        <p className="border-2"> </p>
+                        <p className="border-2 w-[50px]"> </p>
                         <p className="font-[Rowdies] text-[16px] font-light">We've Helped Raise</p>
                     </div>
-                      <div className="flex flex-col gap-3 items-center  bg-[#FF0000] py-6.5 px-8 rounded-sm shadow-lg">
-                         <p className="border-2 w-[40%]"> </p>
+                      <div className="flex flex-col gap-3 items-center  bg-[#FF0000] w-[300px] h-[150px] rounded-sm shadow-lg">
+                         <p className="border-2 w-[50px] mt-6"> </p>
                         <h1 className=" font-[Rowdies] text-[16px] text-white  font-light ">Our Goal is To Help Poor People</h1>
                        
                         <p className="font-[Rowdies] text-[16px] text-white font-light">become a volunteer</p>
