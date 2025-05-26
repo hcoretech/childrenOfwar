@@ -251,10 +251,10 @@ export default function Page(){
                    </div>
                    
                     <div className="absolute right-0 bottom-0">
-                        <Image src="/Path.svg" width={800} height={400} alt="path" priority className="w-auto max-sm:w-[60px] h-auto  "/>      
+                        <Image src="/Path.svg" width={600} height={400} alt="path" priority className="w-auto max-sm:w-[60px] h-auto  "/>      
                     </div>
                     <div className="absolute top-0  right-0  ">
-                        <Image src="/Shape.svg" width={800} height={400} alt="shape" priority className="w-auto  max-sm:h-auto h-[300px] "/>      
+                        <Image src="/Shape.svg" width={600} height={400} alt="shape" priority className="w-auto h-[200px]  max-sm:h-auto  "/>      
                     </div>
 
                    <div className="p-14">
