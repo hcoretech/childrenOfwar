@@ -243,10 +243,10 @@ export default function Page(){
              <div className="flex justify-center items-center  gap-6 items-center flex-wrap  relative p-10 mt-10">
                  <div className="relative">
                  
-                    <div className="absolute size-[200px] rounded-[100%] bottom-0 left-0 bg-[#009EFF] "> 
+                    <div className="absolute size-[200px] max-sm:size-[150px] rounded-[100%] bottom-0 left-0 bg-[#009EFF] "> 
 
                    </div>
-                      <div className="absolute size-[200px] rounded-[24px] top-0 left-0 bg-[#009EFF]"> 
+                      <div className="absolute size-[200px] max-sm:size-[150px] rounded-[24px] top-0 left-0 bg-[#009EFF]"> 
 
                    </div>
                    
@@ -337,11 +337,11 @@ export default function Page(){
                 </div>
                  <div className="relative">
                  
-                    <div className="absolute size-[200px] rounded-[100%] top-0 left-0 bg-[#009EFF] "> 
+                    <div className="absolute size-[200px] rounded-[100%]  max-sm:size-[150px] top-0 left-0 bg-[#009EFF] "> 
 
                    </div>
                      
-                     <div className="absolute size-[200px] rounded-[24px] bottom-0 right-0 bg-[#009EFF]"> 
+                     <div className="absolute size-[200px] rounded-[24px] max-sm:size-[150px] bottom-0 right-0 bg-[#009EFF]"> 
                         
                    </div>
                     <div className="absolute right-0 top-0">
