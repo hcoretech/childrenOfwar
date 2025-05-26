@@ -239,8 +239,8 @@ export default function Page(){
                 </div>
              </div>
 
-             <div className="bg-[#F3F2E7]">
-             <div className="flex justify-center  gap-6 items-center flex-wrap  relative p-10 mt-10">
+             <div className="bg-[#F3F2E7] flex flex-col justify-center">
+             <div className="flex justify-center items-center  gap-6 items-center flex-wrap  relative p-10 mt-10">
                  <div className="relative">
                  
                     <div className="absolute size-[200px] rounded-[100%] bottom-0 left-0 bg-[#009EFF] "> 
@@ -269,9 +269,9 @@ export default function Page(){
                         <h1 className="text-[16px] font-[Rowdies] font-bold text-[#009EFF]"> ABOUT US</h1>
                     </div>
                     <div>
-                        <h1 className="text-[56px] text-[#3A1700] font-bold font-[Rowdies] w-[314px] text-base/14 "> Highest form of love</h1>
+                        <h1 className="text-[56px] text-[#3A1700] font-bold font-[Rowdies] max-sm:w-full w-[314px] text-base/14 "> Highest form of love</h1>
                     </div>
-                    <h1 className="font-inter text-[20px]  w-[470px]"> The best philosophy of charity is the one that is most effective in helping those in need.</h1>
+                    <h1 className="font-inter text-[20px] max-sm:w-full text-center  w-[470px]"> The best philosophy of charity is the one that is most effective in helping those in need.</h1>
                 </div>
                 <div>
                      <Link className="text-[14px] rounded-full py-2 px-6 text-[#7E8AB8] border" href=''>ABOUT US</Link>
@@ -281,7 +281,7 @@ export default function Page(){
 
 
                 <div className="flex justify-center my-6  ">
-                    <h1 className="text-[25px] text-center font-bold font-inter w-[570px] text-[#3A1700]"> Whatever it is that you care about, there will be a charity working on it.</h1>
+                    <h1 className="text-[25px] text-center font-bold font-inter w-[570px] max-sm:w-full text-[#3A1700]"> Whatever it is that you care about, there will be a charity working on it.</h1>
                 </div>
 
 
@@ -325,11 +325,11 @@ export default function Page(){
                         <h1 className="text-[16px] font-[Rowdies] font-bold text-[#009EFF]"> Volunteer</h1>
                     </div>
                     <div>
-                        <h1 className="text-[56px] text-[#3A1700] font-bold font-[Rowdies] w-[314px] text-base/14 "> Unselfish love of 
+                        <h1 className="text-[56px] text-[#3A1700] font-bold font-[Rowdies] max-sm:w-full w-[314px] text-base/14 "> Unselfish love of 
                              one's fellow men
                         </h1>
                     </div>
-                    <h1 className="font-inter text-[20px]  w-[470px]"> Charity is the act of giving help to those in need of it. It is a humanitarian act. It involves giving money, goods or time and effort to those who need it.</h1>
+                    <h1 className="font-inter text-[20px] max-sm:w-full  w-[470px]"> Charity is the act of giving help to those in need of it. It is a humanitarian act. It involves giving money, goods or time and effort to those who need it.</h1>
                 </div>
                 <div>
                      <Link className="text-[14px] rounded-full py-2 px-6 text-[#7E8AB8] border" href=''>Be A Volunteer</Link>
@@ -345,10 +345,10 @@ export default function Page(){
                         
                    </div>
                     <div className="absolute right-0 top-0">
-                        <Image src="/Path.svg" width={800} height={400} alt="path" priority className="w-auto max-sm:w-[60px] h-auto  "/>      
+                        <Image src="/Path.svg" width={600} height={400} alt="path" priority className="w-auto max-sm:w-[60px] h-auto  "/>      
                     </div>
                     <div className="absolute bottom-0  left-0  ">
-                        <Image src="/Shape.svg" width={800} height={400} alt="shape" priority className="w-auto  max-sm:h-auto h-[300px] "/>      
+                        <Image src="/Shape.svg" width={600} height={400} alt="shape" priority className="w-auto h-[200px]  max-sm:h-auto  "/>      
                     </div>
 
                    <div className="p-14">
