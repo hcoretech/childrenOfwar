@@ -233,13 +233,13 @@ export default function Page(){
 
              </div>
 
-             <div className="flex justify-center ">
+             <div className="flex justify-center my-6 ">
                 <div className="py-2 px-6 border mt-8 rounded-[24px]  border-[#7E8AB8]">
                     <Link className="text-[#7E8AB8] text-[14px] font-bold font-[Rowdies]" href='/' > EXPLORE ALL</Link>
                 </div>
              </div>
 
-             <div className="bg-[#F3F2E7] flex flex-col justify-center">
+             <div className="bg-[#F3F2E7] flex flex-col justify-center ">
              <div className="flex justify-center items-center  gap-6 items-center flex-wrap  relative p-10 mt-10">
                  <div className="relative">
                  
@@ -359,6 +359,78 @@ export default function Page(){
 
                 </div>
 
+             </div>
+             <div className="flex justify-center items-center   my-6 flex-col " >
+                <div className=" ">
+                    <h1 className="text-[16px] font-[Rowdies] font-bold text-[#009EFF]">OUR SERVICES</h1>
+                </div>
+                   <div className=" ">
+                    <h1 className="text-[40px] font-inter font-extrabold text-[#3A1700]">Services We Provide</h1>
+                </div>
+                </div>
+
+                <div className="flex justify-center items-center flex-wrap gap-4 ">
+                    <div className="bg-[#F3F2E7] p-4 w-[300px] flex flex-col justify-around  h-[300px] rounded-[12px]">
+                    <div className=" gap-4   flex items-center   ">
+                         <div className="flex gap-3 flex-col">
+                            <Image src='/help.svg' alt="holding hands" width={55} height={55} className="w-[40px] h-[50px] relative ] "/>
+                               <p className="border w-[50px]"> </p>
+                         </div>
+                         <div>
+                            <h1 className="text-[16px] font-[Rowdies] font-bold"> Charity </h1>
+                        </div>
+                     </div>
+
+                      <div>
+                      <button className="text-[14px] font-[Rowdies] bg-[#7E8AB8] font-bold  py-2 px-4 text-center rounded-[24px] text-white mt-8">
+                           LEARN MORE
+                        </button>
+                    </div>
+                    </div>
+
+                          <div className="bg-[#F3F2E7] p-4 w-[300px] flex flex-col justify-around  h-[300px] rounded-[12px]">
+                    <div className=" gap-4   flex items-center   ">
+                         <div className="flex gap-3 flex-col">
+                            <Image src='/fruit.svg' alt="holding hands" width={55} height={55} className="w-[40px] h-[50px] relative ] "/>
+                               <p className="border w-[50px]"> </p>
+                         </div>
+                         <div>
+                            <h1 className="text-[16px] font-[Rowdies] font-bold"> Food </h1>
+                        </div>
+                     </div>
+
+                      <div>
+                      <button className="text-[14px] font-[Rowdies] bg-[#7E8AB8] font-bold  py-2 px-4 text-center rounded-[24px] text-white mt-8">
+                           LEARN MORE
+                        </button>
+                    </div>
+                    </div>
+
+                          <div className="bg-[#F3F2E7] p-4 w-[300px] flex flex-col justify-around  h-[300px] rounded-[12px]">
+                    <div className=" gap-4   flex items-center   ">
+                         <div className="flex gap-3 flex-col">
+                            <Image src='/water-tap.svg' alt="holding hands" width={55} height={55} className="w-[40px] h-[50px] relative ] "/>
+                            <p className="border w-[50px]"> </p>
+                         </div>
+                         <div>
+                            <h1 className="text-[16px] font-[Rowdies] font-bold"> Water </h1>
+                        </div>
+                     </div>
+
+                      <div>
+                      <button className="text-[14px] font-[Rowdies] bg-[#7E8AB8] font-bold  py-2 px-4 text-center rounded-[24px] text-white mt-8">
+                           LEARN MORE
+                        </button>
+                    </div>
+                    </div>
+
+                </div>
+
+                
+             <div className="flex justify-center my-6 ">
+                <div className="py-2 px-6 border mt-8 rounded-[24px]  border-[#7E8AB8]">
+                    <Link className="text-[#7E8AB8] text-[14px] font-bold font-[Rowdies]" href='/' > EXPLORE ALL</Link>
+                </div>
              </div>
 
 
