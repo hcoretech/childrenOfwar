@@ -240,7 +240,7 @@ export default function Page(){
              </div>
 
              <div className="bg-[#F3F2E7]">
-             <div className="flex justify-center  gap-6 items-center  relative p-10 mt-10">
+             <div className="flex justify-center  gap-6 items-center flex-wrap  relative p-10 mt-10">
                  <div className="relative">
                  
                     <div className="absolute size-[240px] rounded-[100%] bottom-0 left-0 bg-[#009EFF] "> 
@@ -282,8 +282,83 @@ export default function Page(){
                 </div>
 
 
-                <div className="flex justify-center mt-6 ">
-                    <h1 className="text-[30px] font-bold font-inter w-[570px]"> Whatever it is that you care about, there will be a charity working on it.</h1>
+                <div className="flex justify-center my-6  ">
+                    <h1 className="text-[25px] text-center font-bold font-inter w-[570px] text-[#3A1700]"> Whatever it is that you care about, there will be a charity working on it.</h1>
+                </div>
+
+
+                <div className="flex justify-center items-center my-4 gap-4 flex-wrap">
+                    <div className="w-[370px] h-[120px] bg-white flex p-10 gap-4 rounded-[12px] ">
+                        <h1 className="text-[#3A1700] text-[56px] font-[Rowdies] font-bold">
+                            42
+                        </h1>
+                        <p className="text-[16px] text-[#3A1700] font-[Rowdies] font-light   ">
+                            People
+                        </p>
+
+                    </div>
+                      <div className="w-[370px] h-[120px] bg-white flex p-10 gap-4 rounded-[12px] ">
+                        <h1 className="text-[#3A1700] text-[56px] font-[Rowdies] font-bold">
+                            42
+                        </h1>
+                        <p className="text-[16px] text-[#3A1700] font-[Rowdies] font-light   ">
+                            Society
+                        </p>
+
+                    </div>
+                      <div className="w-[370px] h-[120px] bg-white flex p-10 gap-4 rounded-[12px] ">
+                        <h1 className="text-[#3A1700] text-[56px] font-[Rowdies] font-bold">
+                            42
+                        </h1>
+                        <p className="text-[16px] text-[#3A1700] font-[Rowdies] font-light   ">
+                            Project
+                        </p>
+
+                    </div>
+                </div>
+
+
+                <div className="flex justify-center  gap-6 items-center flex-wrap  relative p-10 mt-10">
+
+                    
+                <div className="flex flex-col gap-15">
+                <div className="flex flex-col gap-5">
+                    <div >
+                        <h1 className="text-[16px] font-[Rowdies] font-bold text-[#009EFF]"> Volunteer</h1>
+                    </div>
+                    <div>
+                        <h1 className="text-[56px] text-[#3A1700] font-bold font-[Rowdies] w-[314px] text-base/14 "> Unselfish love of 
+                             one's fellow men
+                        </h1>
+                    </div>
+                    <h1 className="font-inter text-[20px]  w-[470px]"> Charity is the act of giving help to those in need of it. It is a humanitarian act. It involves giving money, goods or time and effort to those who need it.</h1>
+                </div>
+                <div>
+                     <Link className="text-[14px] rounded-full py-2 px-6 text-[#7E8AB8] border" href=''>Be A Volunteer</Link>
+                </div>
+                </div>
+                 <div className="relative">
+                 
+                    <div className="absolute size-[240px] rounded-[100%] top-0 left-0 bg-[#009EFF] "> 
+
+                   </div>
+                     
+                     <div className="absolute size-[240px] rounded-[24px] bottom-0 right-0 bg-[#009EFF]"> 
+                        
+                   </div>
+                    <div className="absolute right-0 top-0">
+                        <Image src="/Path.svg" width={800} height={400} alt="path" priority className="w-auto max-sm:w-[60px] h-auto  "/>      
+                    </div>
+                    <div className="absolute bottom-0  left-0  ">
+                        <Image src="/Shape.svg" width={800} height={400} alt="shape" priority className="w-auto  max-sm:h-auto h-[300px] "/>      
+                    </div>
+
+                   <div className="p-14">
+                   
+                    <Image src='/man.png' alt="holding hands" width={400} height={450} className="w-auto h-auto relative rounded-[24px] "/>
+                   </div>
+                </div>
+
                 </div>
 
              </div>
