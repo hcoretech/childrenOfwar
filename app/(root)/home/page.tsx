@@ -149,12 +149,12 @@ export default function Page(){
                   
                 {/* </div> */}
                 <div className="bg-white ">
-                      <h1 className="absolute py-1 px-4 top-4 ml-4 rounded-[18px]  bg-[#009EFF] text-white">water</h1>
-                    <Image src='/kidsTogether.png' className="w-[320px] h-auto" alt="kidsLove" width={500} height={200} />
+                      <h1 className="absolute py-1 px-4 top-4 ml-4 rounded-[18px] text-[14px] font-[Rowdies] font-light  bg-[#009EFF] text-white">WATER</h1>
+                    <Image src='/kidsTogether.png' className="w-[320px] h-auto rounded-tl-[12px] rounded-tr-[12px]" alt="kidsLove" width={500} height={200} />
                 </div>
                 <div className="p-6 flex flex-col gap-4">
                 <div >
-                    <h1 className="text-[24px] font-[Rowdies] font-bold text-base/8 ">Together people who care about a cause</h1>
+                    <h1 className="text-[24px] font-[Rowdies] font-bold text-base/8 ">Bring together people who care about a cause</h1>
                 </div>
                 <div>
                     <p className="text-[20px] font-bold font-[Rowdies]">N 2500</p>
@@ -178,8 +178,8 @@ export default function Page(){
                   
                 {/* </div> */}
                 <div className="bg-white">
-                      <h1 className="absolute py-1 px-4 top-4 ml-4 rounded-[18px]  bg-[#009EFF] text-white">water</h1>
-                    <Image src='/kidsLove.png' className="w-[320px] h-auto" alt="kidsLove" width={500} height={200} />
+                      <h1 className="absolute py-1 px-4 top-4 ml-4 rounded-[18px] text-[14px] font-[Rowdies] font-light   bg-[#009EFF] text-white">FOOD</h1>
+                    <Image src='/kidsLove.png' className="w-[320px] h-auto rounded-tl-[12px] rounded-tr-[12px]" alt="kidsLove" width={500} height={200} />
                 </div>
                 <div className="p-6 flex flex-col gap-4">
                 <div >
@@ -208,12 +208,12 @@ export default function Page(){
                   
                 {/* </div> */}
                 <div className="bg-white">
-                      <h1 className="absolute py-1 px-4 top-4 ml-4 rounded-[18px]  bg-[#009EFF] text-white">water</h1>
-                    <Image src='/kidsCauses.png' className="w-[320px] h-auto" alt="kidsLove" width={500} height={200} />
+                      <h1 className="absolute py-1 px-4 top-4 ml-4 rounded-[18px] text-[14px] font-[Rowdies] font-light   bg-[#009EFF] text-white">CHARITY</h1>
+                    <Image src='/kidsCauses.png' className="w-[320px] h-auto rounded-tl-[12px] rounded-tr-[12px]" alt="kidsLove" width={500} height={200} />
                 </div>
                 <div className="p-6 flex flex-col gap-4">
                 <div >
-                    <h1 className="text-[24px] font-[Rowdies] font-bold text-base/8 ">Together people who care about a cause</h1>
+                    <h1 className="text-[24px] font-[Rowdies] font-bold text-base/8 ">People who care about a cause</h1>
                 </div>
                 <div>
                     <p className="text-[20px] font-bold font-[Rowdies]">N 2500</p>
@@ -238,6 +238,57 @@ export default function Page(){
                     <Link className="text-[#7E8AB8] text-[14px] font-bold font-[Rowdies]" href='/' > EXPLORE ALL</Link>
                 </div>
              </div>
+
+             <div className="bg-[#F3F2E7]">
+             <div className="flex justify-center  gap-6 items-center  relative p-10 mt-10">
+                 <div className="relative">
+                 
+                    <div className="absolute size-[240px] rounded-[100%] bottom-0 left-0 bg-[#009EFF] "> 
+
+                   </div>
+                      <div className="absolute size-[240px] rounded-[24px] top-0 left-0 bg-[#009EFF]"> 
+
+                   </div>
+                     <div className="absolute size-[240px] rounded-[24px] top-0 left-0 bg-[#009EFF]"> 
+                        
+                   </div>
+                    <div className="absolute right-0 bottom-0">
+                        <Image src="/Path.svg" width={800} height={400} alt="path" priority className="w-auto max-sm:w-[60px] h-auto  "/>      
+                    </div>
+                    <div className="absolute top-0  right-0  ">
+                        <Image src="/Shape.svg" width={800} height={400} alt="shape" priority className="w-auto  max-sm:h-auto h-[300px] "/>      
+                    </div>
+
+                   <div className="p-14">
+                   
+                    <Image src='/hands.png' alt="holding hands" width={400} height={450} className="w-auto h-auto relative "/>
+                   </div>
+                </div>
+
+                <div className="flex flex-col gap-15">
+                <div className="flex flex-col gap-5">
+                    <div >
+                        <h1 className="text-[16px] font-[Rowdies] font-bold text-[#009EFF]"> ABOUT US</h1>
+                    </div>
+                    <div>
+                        <h1 className="text-[56px] text-[#3A1700] font-bold font-[Rowdies] w-[314px] text-base/14 "> Highest form of love</h1>
+                    </div>
+                    <h1 className="font-inter text-[20px]  w-[470px]"> The best philosophy of charity is the one that is most effective in helping those in need.</h1>
+                </div>
+                <div>
+                     <Link className="text-[14px] rounded-full py-2 px-6 text-[#7E8AB8] border" href=''>ABOUT US</Link>
+                </div>
+                </div>
+                </div>
+
+
+                <div className="flex justify-center mt-6 ">
+                    <h1 className="text-[30px] font-bold font-inter w-[570px]"> Whatever it is that you care about, there will be a charity working on it.</h1>
+                </div>
+
+             </div>
+
+
         </section>
     )
 }
